@@ -7,18 +7,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-hr {
-    background: rgb(82, 82, 82);
-    height: 5px;
-    border: 0;
-    outline: 0;
-}
-
 body {
     background: #000;
     color: #fff;
 }
 
+/* ----------------Header-part----------------- */
 .header {
     min-width: 100%;
     min-height: 100vh;
@@ -120,7 +114,7 @@ nav button {
 }
 
 
-/*------------Features------------*/
+/*------------Features-Section------------*/
 .features {
     font-size: 22px;
     padding: 50px 12%;
@@ -152,6 +146,7 @@ nav button {
     margin-bottom: 20px;
 }
 
+/* -------------Faq-Section-Accordian------------ */
 .faq {
     padding: 10px 12%;
     text-align: center;
@@ -186,7 +181,8 @@ nav button {
     font-weight: 500;
     position: relative;
 }
-label::after{
+
+label::after {
     content: "+";
     font-size: 34px;
     position: absolute;
@@ -194,7 +190,7 @@ label::after{
     transition: transform .5s;
 }
 
-input[type="radio"]{
+input[type="radio"] {
     display: none;
 }
 
@@ -206,18 +202,67 @@ input[type="radio"]{
     overflow: hidden;
     transition: max-height .4s, padding .4s;
 }
-.accordion input[type="radio"]:checked + label + .content{
+
+.accordion input[type="radio"]:checked+label+.content {
     max-height: 600px;
     padding: 30px 20px;
 }
-.accordion input[type="radio"]:checked + label::after{
+
+.accordion input[type="radio"]:checked+label::after {
     transform: rotate(135deg);
 }
 
-.faq .email-signup{
+.faq .email-signup {
     max-width: 600px;
     margin: 20px auto 60px;
 }
-.faq small{
+
+.faq small {
     font-size: 13px;
 }
+
+/* -------------Footer-Section-------------- */
+.footer {
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.lang-btn {
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.copyright-txt {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* ----------Responsive-Part----------- */
