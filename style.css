@@ -17,7 +17,7 @@ body {
   min-width: 100%;
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/header-image.png);
+    url(images/header-img.webp);
   background-size: cover;
   background-position: center;
   padding: 10px 8%;
