@@ -8,5 +8,6 @@ Welcome to the Netflix Clone project! This project replicates the frontend inter
 - **Accordion:** Functional accordion component that expands and collapses sections to display additional content.
 - **Footer:** Includes essential links and information such as About Us, Help, and Terms of Use.
 
-## Live-Link 🔗: https://fahadshahbaz.github.io/Netflix-clone/
+# Demo
+For a live demo, check out this link 🔗: https://fahadshahbaz.github.io/Netflix-clone/
 ![alt text](image.png)
