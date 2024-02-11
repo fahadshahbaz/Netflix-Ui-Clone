@@ -10,5 +10,4 @@ Welcome to the Netflix Clone project! This project replicates the frontend inter
 
 # Demo
 For a live demo, check out this link 🔗: https://fahadshahbaz.github.io/Netflix-clone/
-![image](https://github.com/fahadshahbaz/Netflix-clone/assets/139986354/c51a5b23-826a-4822-a121-8aaf6e215ab2)
 
