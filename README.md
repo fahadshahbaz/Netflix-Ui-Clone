@@ -9,5 +9,4 @@ Welcome to the Netflix Clone project! This project replicates the frontend inter
 - **Footer:** Includes essential links and information such as About Us, Help, and Terms of Use.
 
 # Demo
-For a live demo, check out this link 🔗: https://fahadshahbaz.github.io/Netflix-clone/
-
+For a live demo, check out this link 🔗: https://netflix-cloneproject.vercel.app
